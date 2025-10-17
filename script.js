@@ -63,7 +63,7 @@
 
             const modal = document.getElementById('journalModal');
             const closeModalBtn = document.getElementById('closeModalBtn');
-            const readMoreBtns = document.querySelectorAll('.read-more-btn');
+            const readMoreBtns = document.querySelectorAll('.articles-grid .read-more-btn');
             const modalTitle = document.getElementById('modalTitle');
             const modalBody = document.getElementById('modalBody');
 
@@ -134,5 +134,6 @@
                     closeModal();
                 }
             });
+
 
         });
